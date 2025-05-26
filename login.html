@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Weather App</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100vh;
+        margin: 0;
+        color:#858484;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form input{
+        height: 30px;
+        padding: 5px;
+        font-size: 15px;;
+    }
+    form label{
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    form h2{
+        font-size: 30px;
+        color: green;
+        text-align: center;
+    }
+    form button{
+        height: 40px;
+        margin-inline: 40% 0%;
+        margin-top: 5px;
+        background: rgb(4, 134, 13);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        transition: .3 ease-in;
+
+    }
+    button:hover{
+        background-color: rgb(16, 172, 27);
+        transform: scale(1.1);
+    }
+    footer{
+        margin-top: 10%;
+        position: static;
+        bottom: 0;
+        background-color: #e8e7e7;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .links a{
+        font-size: 12px;
+    }
+</style>
+<body>
+    <form action="#">
+        <h2>Login</h2>
+        <p>Welcome back. Fill in your details to continue</p>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter yout email">
+        <label for="email">Password:</label>
+        <input type="password" placeholder="Enter yout password">
+
+        <button type="submit">Continue</button>
+    </form>
+
+    <section>
+        <p>Create account here! <a href="#">Sign Up</a></p>
+    </section>
+
+    <section class="links">
+        <h3>Explore our other works</h3>
+        <a href="#">#Weather app</a>
+        <a href="#">#Googlelite</a>
+        <a href="#">#MyPortfolio</a>
+        <a href="#">YT Search</a>
+    </section>
+    <footer>&copy; Copyright @2005 Nizar | All Right Preserved!</footer>
+</body>
+</html>
